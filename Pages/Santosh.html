@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="theme-color" content="#BC8887" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Santosh weds Veena And Sanjay weds Sahana</title>
+
+    <meta property="og:title" content="Santosh weds Veena And Sanjay weds Sahana">
+    <meta property="og:description" content="Santosh weds Veena And Sanjay weds Sahana">
+    <meta property="og:locale" content="id_ID" />
+    <!-- <meta property="og:image" content="https://sherly.dae.ng/image/sherly-daeng-wedding-thumbnail.png">
+    <meta property="og:url" content="http://sherly.dae.ng/index.html"> -->
+    <meta name="twitter:card" content="summary_large_image">
+    <!-- Bulma Version 0.8.x-->
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.8.0/css/bulma.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/bulma-tooltip@0.1.5/dist/bulma-tooltip.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/menikah.css" />
+    <link rel="stylesheet" type="text/css" href="../css/jquery.countdown.css" />
+    <script src="https://kit.fontawesome.com/2828f7885a.js"
+        integrity="sha384-WAsFbnLEQcpCk8lM1UTWesAf5rGTCvb2Y+8LvyjAAcxK1c3s5c0L+SYOgxvc6PWG"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="../js/jquery.coundown.js"></script>
+    <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/290/290018.png" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23064379-20"></script>
+    <!-- Begin Script for Countdown -->
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-23064379-20');
+    </script>
+    <!-- Begin Script for Countdown -->
+
+    <!-- Github Button -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+</head>
+
+<body>
+    <!-- Begin Preloader -->
+    <div class="preloader-wrapper">
+        <div class="preloader">
+            <img src="../image/favicon.png" alt="Flower" />
+        </div>
+    </div>
+    <div id="musicButton">
+        <button onclick="toggleMusic()">
+          <span id="playIcon"><i class="fa fa-play-circle"></i></span> <!-- Play icon -->
+          <span id="pauseIcon" style="display:none;"><i class="fa fa-pause-circle"></i></span> <!-- Pause icon (initially hidden) -->
+        </button>
+      </div>
+    
+      <!-- Audio player -->
+      <audio id="bgMusic" loop>
+        <source src="../music/audio.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    <!-- End Preloader-->
+    <!-- Begin Header -->
+    <div class="header-wrapper" id="home">
+        <!-- Begin Hero -->
+        <section class="hero is-large">
+            <!-- Begin Mobile Nav -->
+            <nav class="navbar is-transparent is-hidden-desktop">
+                <!-- Begin Burger Menu -->
+                <div class="navbar-brand is-fixed-top">
+                    <div class="navbar-burger burger" data-target="mobile-nav">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <!-- End Burger Menu -->
+                <div id="mobile-nav" class="navbar-menu">
+                    <div class="navbar-end">
+                        <div class="navbar-item">
+                            <a class="navbar-item" href="#Waktu">
+                                Time
+                            </a>
+                        </div>
+                        <div class="navbar-item">
+                            <a class="navbar-item" href="#lokasi">
+                                Location
+                            </a>
+                        </div>
+
+                        <div class="navbar-item">
+                            <a class="navbar-item" href="#tentang-sherly-daeng">
+                                Together Forever
+                            </a>
+                        </div>
+                        <div class="navbar-item">
+                            <a class="navbar-item" href="#rsvp">
+                                Connect Us
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <!-- End Mobile Nav -->
+            <!-- Begin Hero Content-->
+            <div class="hero-body">
+                <div class="container has-text-centered">
+                    <h1 class="subtitle">Wedding Invitation</h1>
+                    <h2 class="title">SantoshKumar</h2> </br>
+                    <h2 class="title">&</h2>
+                    <h2 class="title">Veena</br></h2>
+                    <br class="subtitle tempatwaktu">
+
+                    Sunday, 21 April 2024
+                    </br>
+                    Sri Siddeshwara Palace,
+                    </br>
+                    Shimoga - Harihar - Hospet Rd,
+                    </br>
+                    opposite Taralabalu School, APMC , Harihar ,
+                    <br />
+                    Davanagere (dist) Karnataka 577601, India
+                    </h4>
+                </div>
+                <!-- Start Countdown -->
+                <div>
+                    <ul id="hitungmundur">
+                        <li><span class="days">00</span>
+                            <p class="days_text">Days</p>
+                        </li>
+                        <li class="separator">:</li>
+                        <li><span class="hours">00</span>
+                            <p class="hours_text">Hours</p>
+                        </li>
+                        <li class="separator">:</li>
+                        <li><span class="minutes">00</span>
+                            <p class="minutes_text">Minute</p>
+                        </li>
+                        <li class="separator">:</li>
+                        <li><span class="seconds">00</span>
+                            <p class="seconds_text">Seconds</p>
+                        </li>
+                    </ul>
+                    <div class="spasi">
+                    </div>
+                    <script type="text/javascript">
+                        var now = new Date();
+                        var day = now.getDate();
+                        var month = now.getMonth() + 1;
+                        var year = now.getFullYear() + 1;
+
+                        var nextyear = month + '/' + day + '/' + year + ' 07:07:07';
+                        var harih = '04/21/2024 12:24:00';
+
+                        $('#hitungmundur').countdown({
+                            date: harih, // TODO Date format: 07/27/2017 17:00:00
+                            offset: +7, // TODO Your Timezone Offset
+                            day: 'Day',
+                            days: 'Days'
+                        }, function () {
+                            alert('Done!');
+                        });
+                    </script>
+                </div>
+                <!-- End Countdown -->
+            </div>
+            <!-- End Hero Content-->
+            <!-- Begin Hero Menu -->
+            <div class="hero-foot ">
+                <div class="hero-foot--wrapper">
+                    <div class="columns">
+                        <div class="column is-12 hero-menu-desktop has-text-centered">
+                            <ul>
+                                <li class="is-active">
+                                    <a href="#home">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#Waktu">Time</a>
+                                </li>
+                                <li>
+                                    <a href="#lokasi">Location</a>
+                                </li>
+                                <li>
+                                    <a href="#tentang-sherly-daeng">Together Forever</a>
+                                </li>
+
+                                <li>
+                                    <a href="#rsvp">Connect us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Hero Menu -->
+        </section>
+        <!-- End Hero -->
+    </div>
+    <!-- End Header -->
+
+    <!-- Begin Main Content -->
+    <div class="main-content">
+        <!-- Begin regular-section-->
+        <section class="section-light no-padding-top regular-section has-text-centered has-vertically-aligned-content"
+            id="regular-section">
+
+            <div data-aos="fade-up" data-aos-easing="linear">
+                <img src="https://pngfre.com/wp-content/uploads/ganesh-46-1024x1024.png"
+                    class="bismillah has-text-centered" alt="Bismillahirrahmaanirrahiim">
+            </div>
+
+            <p class="bodytext" data-aos="fade-up" data-aos-easing="linear" style="margin-bottom:50px ;">
+                ಶುಕ್ಲಾಂಭರಧರಂ ವಿಷ್ಣುಂ ಶಶಿವರ್ಣಂ ಚತುರ್ಭುಜಂ
+                <br />
+                ಪ್ರಸನ್ನ ವದನಂ ಧ್ಯಾಯೇತ್ ಸರ್ವ ವಿಘ್ನೋಪಶಾಂತಯೇ,
+
+                </br>
+
+                <span class="space40px"></span>
+                <span class="space40px"></span>
+
+
+            <div data-aos="fade-up" data-aos-easing="linear">
+                <div class="nama-lengkap">
+                    SantoshKumar Harapanahalli
+                </div>
+                <div class="ampersand">&</div>
+                <div class="nama-lengkap">
+                    Veena Kataraki
+                </div>
+
+            </div>
+            <span class="space40px"></span>
+            <div data-aos="fade-up" data-aos-easing="linear">
+                <img src="../image/divider-leaves.png" class="divider has-text-centered" alt="~~~">
+            </div>
+            <span class="space40px"></span>
+            <span class="space40px"></span>
+        </section>
+        <!-- End regular-section-->
+
+        <!-- Begin Waktu Section -->
+        <section class="section-dark" id="Waktu">
+            <div class="container">
+
+                <div class="column is-12 regular-section" data-aos="fade-up" data-aos-easing="linear">
+                    <h1 class="title has-text-centered section-title">Date</h1>
+                </div>
+                <div class="columns is-multiline" data-aos="fade-up" data-aos-easing="linear">
+                    <div class="column is-4 has-vertically-aligned-content">
+
+                        <p class="is-larger has-text-centered">
+                        <div class="waktu tanggal-hari has-text-centered">Sunday</div>
+                        <div class="waktu tanggal-angka has-text-centered">21</div>
+                        <div class="waktu tanggal-bulan has-text-centered">April 2024</div>
+                        </p>
+
+                    </div>
+                    <div class="column is-4 has-vertically-aligned-content">
+
+                        <p class="waktu is-larger has-text-centered">
+                            Time
+                            <br>
+                            <strong>05:45am to 07:20am</strong>
+                        </p>
+
+                    </div>
+
+                    <div class="column is-4 has-vertically-aligned-content">
+
+                        <h1 class="waktu is-larger has-text-centered">
+                            Reception:
+                            <br>
+                            <strong>21/04/2024</strong>
+                            <strong>12:24</strong>
+                        </h1>
+
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="space40px"></div>
+            <div class="main-content has-text-centered" data-aos="fade-up" data-aos-easing="linear">
+                <!-- <a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=MHNpODFyYXFscG11bDdoYnZpdjN2bnZ1cDMgc2lkZHUxMC5rbG1AbQ&amp;tmsrc=siddu10.klm%40gmail.com " ></a> -->
+                <a href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NzVkZzloaWY4c3AxcWUzNm9oMDliYjExZ2Mgc2lkZHUxMC5rbG1AbQ&tmsrc=siddu10.klm%40gmail.com "
+                    target="_blank" class="button has-tooltip btn-cta" data-tooltip="Add to Calendar" target="_blank"
+                    data-aos="zoom-in">
+                    <i class="far fa-calendar-plus"></i>
+                    &nbsp;&nbsp;Google Calendar
+                </a>
+            </div>
+        </section>
+        <!-- End Waktu Content -->
+
+        <!-- Begin Lokasi Section -->
+        <section class="section-darker" id="lokasi">
+            <div class="container">
+                <div class="column is-12 regular-section" data-aos="fade-up" data-aos-easing="linear">
+                    <h1 class="title has-text-centered section-title">Location</h1>
+                    <p class="tempat is-larger has-text-centered">
+                        <strong>Siddeshwara Palace,</strong>
+                        </br>
+                        Shimoga - Harihar - Hospet Rd,
+                        </br>
+                        opposite Taralabalu School, APMC , Harihar ,
+                        <br />
+                        Davanagere (dist) Karnataka 577601, India
+                    </p>
+                </div>
+                <div class="section-map" data-aos="fade-up" data-aos-easing="linear">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3862.8108990186674!2d75.80191427462802!3d14.49554247964112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bba5bbb967eef83%3A0x7eb0079251540cbe!2sShri%20Siddeshwara%20Palace%20%7C%7C%20A%20Luxury%20Banquet%20Hall%20%7C%7C%20Harihar!5e0!3m2!1skn!2sin!4v1712949109850!5m2!1skn!2sin"
+                        width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                    <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3853.667185880423!2d75.9334753!3d15.011168999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb9bd87959a7a5b%3A0xf6c367ed7e179b6a!2z4LK24LON4LKw4LOAIOCyuOCzh-CyteCyvuCysuCyvuCysuCzjSDgsrjgsq7gs4Hgsqbgsr7gsq8g4LKt4LK14LKo!5e0!3m2!1skn!2sin!4v1691148835484!5m2!1skn!2sin"  ></iframe> -->
+                </div>
+                <div class="space40px"></div>
+                <div class="has-text-centered" data-aos="fade-up" data-aos-easing="linear">
+                    <a href="https://maps.app.goo.gl/aMWYuJ43xeuyWAe3A" class="button btn-cta" target="_blank"
+                        data-aos="zoom-in">
+                        <i class="far fa-directions"></i>
+                        &nbsp;&nbsp;Google Maps
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- End Lokasi Content -->
+
+        <!-- Begin Tentang Sherly and Daeng -->
+        <section class="section-light regular-section is-fullheight" id="tentang-sherly-daeng">
+            <div class="container">
+                <div class="columns is-multiline">
+                    <div class="column has-text-centered is-12 prolog">
+                        <h1 class="title has-text-centered section-title1" data-aos="fade-up" data-aos-easing="linear">
+                        </h1>
+
+
+
+                        <!-- IMAGES -->
+                        <div class=" tile">
+                            <div class="tile is-ancestor">
+                                <div class="tile is-parent">
+                                    <article class="tile is-child fotos1 notification foto1" data-aos="fade-up"
+                                        data-aos-easing="linear">
+                                        <div class="content">
+
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="tile is-parent">
+                                    <article class="tile is-child notification fotos2" data-aos="fade-up"
+                                        data-aos-easing="linear">
+                                        <div class="content">
+
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="tile is-parent">
+                                    <article class="tile is-child notification fotos3" data-aos="fade-up"
+                                        data-aos-easing="linear">
+                                        <div class="content">
+
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="space24px"></div>
+                        <div class="tile is-ancestor">
+                            <div class="tile is-parent">
+                                <article class="tile is-child notification fotos6" data-aos="fade-up"
+                                    data-aos-easing="linear">
+                                    <div class="content">
+                                        <!-- <p class="title-foto">Juni 2019</p>
+              <p class="subtitle-foto">Pertemuan 2 keluarga</p> -->
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="tile is-parent">
+                                <article class="tile is-child notification fotos4" data-aos="fade-up"
+                                    data-aos-easing="linear">
+                                    <div class="content">
+                                        <!-- <p class="title-foto">Desember 2019</p>
+              <p class="subtitle-foto">Lamaran</p> -->
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="tile is-parent">
+                                <article class="tile is-child notification fotos5" data-aos="fade-up"
+                                    data-aos-easing="linear">
+                                    <div class="content">
+                                        <!-- <p class="title-foto">Maret 2020</p>
+              <p class="subtitle-foto">Menikah</p> -->
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                        <!-- IMAGES -->
+                        <div class="space40px"></div>
+                        <div data-aos="fade-up" data-aos-easing="linear">
+                            <img src="../image/divider-leaves.png" class="divider has-vertically-align" alt="~~~">
+                        </div>
+                        <div class="space40px"></div>
+                        <div class="space40px"></div>
+
+                    </div>
+                </div>
+        </section>
+        <!-- End Tentang Sherly dan Daeng -->
+
+        <!-- Begin RSVP Content -->
+        <section class="section-dark contact " id="rsvp">
+            <div class="container section-light">
+                <section class="section-dark contact " id="rsvp">
+                    <div class="columns is-multiline ">
+                        <div class="column is-12 prolog">
+                            <h1 class="title has-text-centered section-titles" data-aos="fade-up"
+                                data-aos-easing="linear">
+                                Your Presence is more Than Everything</h1>
+                        </div>
+                        <div class="column is-12 prolog has-text-centered" data-aos="fade-up" data-aos-easing="linear">
+                            <p class="h2 subtitle">
+                                It is an honor and happiness for us
+
+                                <br>
+                                when Mr./Mrs./Brother/Sister agrees to be present and give a blessing prayer.
+                                <br>
+
+                                <br>
+                                <br>
+
+                            </p>
+                            <div class="btn-social">
+                                <a href="https://wa.me/qr/RHEKCYR7OYFIH1" class="button  whatsapp" target="_blank"
+                                    data-aos="zoom-in">
+                                    <i class="fab fa-whatsapp"></i>
+                                    &nbsp;&nbsp;DM ME ON WHATSAPP
+                                </a>
+                                <a href="https://instagram.com/santoshkumar1545" class="button instagram1" target="_blank"
+                                    data-aos="zoom-in">
+                                    <i class="fab fa-instagram"></i>
+                                    &nbsp;&nbsp;DM me on Instagram
+                                </a>
+
+                            </div>
+
+                            <div class="space40px"></div>
+
+                            <div class="space40px"></div>
+                            <div data-aos="fade-up" data-aos-easing="linear">
+                                <img src="../image/divider-leaves.png" class="divider has-text-centered" alt="~~~">
+                            </div>
+                            <div class="space40px"></div>
+                            <p class="h2 subtitle" data-aos="fade-up" data-aos-easing="linear">
+                                We who are happy,,
+                                <br>
+                                <br>
+                                <strong class="santu"> SANTOSHKUMAR</strong>
+
+                                &nbsp
+                                <!-- <a class="instagram" href="https://instagram.com/_jayasuma_07___" target="_blank" alt="Instagram Daeng"> -->
+                                <br> <i class="fas fa-heart"> </i> &nbsp<br> <strong class="santu">VEENA</strong>
+                                <!-- </a> -->
+                            </p>
+
+                        </div>
+
+                    </div>
+            </div>
+
+            <div class="formcontainer">
+                <div id="contact">
+                    <h2 class="form-heading">Contact Us for Orders</h2>
+                    <form id="orderForm">
+                        <div class="form-row">
+                            <div class="input-group">
+                                <label for="name">Name:</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="input-group">
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="input-group">
+                                <label for="tel">Contact Number:</label>
+                                <input type="tel" id="tel" name="tel" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="input-group full-width">
+                                <label for="message">Message:</label>
+                                <textarea id="messages" name="messages" rows="4" required></textarea>
+                            </div>
+                        </div>
+                        <input type="submit" value="Submit">
+                    </form>
+                    <p id="confirmation">Thank you for your order! We'll be in touch soon.</p>
+                </div>
+            </div>
+            <!-- Add this within your HTML body -->
+            <!-- <span id="visitorCount" class="visitorCount">Total Visitors: 0</span> -->
+        </section>
+        <!-- End RSVP Content -->
+    </div>
+    <!-- End Main Content -->
+
+    <!-- Begin Footer -->
+    <div class="footer">
+        <div class="container">
+            <!-- <a href="https://github.com/daengdoang/daeng-sherly-menikah" class="has-vertically-align"> -->
+            <hr class="mt-3 mb-2">
+
+            <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                <div class="col-auto">
+                    <small class="text-light">
+                        Build with <i class="fas fa-heart mx-1"> </i> Swt Sid
+                    </small>
+                </div>
+                <div class="col-auto">
+                    <small class="insta">
+                        <i class="fab fa-instagram me-1"></i><a target="_blank"
+                            href="https://www.instagram.com/sid's_pixelvows/">sid's_pixelvows </a>
+
+                    </small>
+                    <small class="insta">
+                        <!-- <i class="fa-brands fa-instagram me-1"></i><a target="_blank" href="https://www.instagram.com/swt_sid/">Swt_sid</a> -->
+                        <i class="fab fa-whatsapp me-1"></i><a target="_blank"
+                            href="https://wa.me/6362041773/?text=Hello%20there%20i%20like%20your%20website!">
+                            sid's_pixelvows </a>
+                    </small>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Footer -->
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="../js/menikah.js"></script>
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            easing: "ease-out",
+            duration: 800,
+        });
+    </script>
+</body>
+
+</html>
