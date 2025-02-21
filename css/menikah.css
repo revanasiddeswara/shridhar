@@ -859,7 +859,8 @@ body.preloader-site {
     font-size: 3rem;
     color: #ebe3e3;
     text-align: center;
-    /* margin-top: 20vh; Center vertically */
+    margin-top: 25vh; 
+    margin-bottom: 10vh;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Add text shadow for better contrast */
     animation: fadeIn 1s ease-in-out; /* Fade in animation */
   }
