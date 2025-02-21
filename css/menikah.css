@@ -598,7 +598,7 @@ body.preloader-site {
 
 
 .foto1 {
-  background-image:url("../image/sanju-ban.jpeg");
+  background-image:url("../image/s1.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat:no-repeat;
@@ -607,7 +607,7 @@ body.preloader-site {
 
 
 .foto2 {
-  background-image:  url("../image/sanju-4.jpeg");
+  background-image:  url("../image/s6.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat:no-repeat;
@@ -615,7 +615,7 @@ body.preloader-site {
 }
 
 .foto3 {
-  background-image: url("../image/sanju-3.jpeg");
+  background-image: url("../image/s2.jpeg");
   background-size: cover;
   background-position: top;
   background-repeat:no-repeat;
@@ -623,15 +623,15 @@ body.preloader-site {
 }
 
 .foto4 {
-  background-image:url("../image/sanju-2.jpeg");
+  background-image:url("../image/s3.jpeg");
   background-size: cover;
-  background-position: top;
+  background-position: bottom;
   background-repeat:no-repeat;
   min-height: 30rem;
 }
 
 .foto5 {
-  background-image:url("../image/sanju-6.jpg");
+  background-image:url("../image/s4.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat:no-repeat;
@@ -640,14 +640,14 @@ body.preloader-site {
 
 
 .foto6 {
-  background-image: url("../image/Untitled.jpeg");
+  background-image: url("../image/s5.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat:no-repeat;
   min-height: 30rem;
 }
 .fotos1 {
-  background-image:url("../image/santu1.jpeg");
+  background-image:url("../image/sb1.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat:no-repeat;
@@ -656,7 +656,7 @@ body.preloader-site {
 
 
 .fotos2 {
-  background-image:  url("../image/santu2.jpeg");
+  background-image:  url("../image/sb2.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat:no-repeat;
@@ -664,7 +664,7 @@ body.preloader-site {
 }
 
 .fotos3 {
-  background-image: url("../image/santu3.jpeg");
+  background-image: url("../image/sb3.jpeg");
   background-size: cover;
   background-position: top;
   background-repeat:no-repeat;
@@ -672,7 +672,7 @@ body.preloader-site {
 }
 
 .fotos4 {
-  background-image:url("../image/santu4.jpg");
+  background-image:url("../image/sb4.jpeg");
   background-size: cover;
   background-position: top;
   background-repeat:no-repeat;
@@ -680,7 +680,7 @@ body.preloader-site {
 }
 
 .fotos5 {
-  background-image:url("../image/santu5.jpeg");
+  background-image:url("../image/sb5.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat:no-repeat;
@@ -689,7 +689,7 @@ body.preloader-site {
 
 
 .fotos6 {
-  background-image: url("../image/santu6.jpeg");
+  background-image: url("../image/sb6.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat:no-repeat;
