@@ -853,16 +853,19 @@ body.preloader-site {
     background: linear-gradient(rgba(29, 29, 29, 0.65), rgba(23, 22, 22, 0.768));
     mix-blend-mode: overlay; /* Blend the overlay with the background image */
   }
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400&display=swap');
+
   .welcome {
-    font-family: 'Great Vibes', cursive;
-    font-size: 3rem;
-    color: #ffe5ec;
-    text-align: center;
-    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
-    letter-spacing: 2px;
-    font-weight: 400;
-    animation: fadeInUp 1.5s ease-in-out;
-}
+      font-family: 'Dancing Script', cursive; /* Less cursive, still elegant */
+      font-size: 2rem;
+      color: #ffe5ec;
+      text-align: center;
+      text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+      letter-spacing: 1.5px; /* Reduced spacing for smoother look */
+      font-weight: 300; /* Thinner, more elegant cursive */
+      animation: fadeInUp 1.5s ease-in-out;
+  }
+  
 
 
 .btn-container {
@@ -908,13 +911,26 @@ body.preloader-site {
   transform: scale(1.1); /* Slight zoom effect on hover */
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Poppins:wght@700&display=swap');
+
+.welcome {
+    font-family: 'Dancing Script', cursive; /* Soft cursive to match Poppins */
+    font-size: 3rem;
+    color: #ffe5ec;
+    text-align: center;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+    letter-spacing: 1.5px;
+    font-weight: 500; /* Medium weight to match Poppins bold */
+    animation: fadeInUp 1.5s ease-in-out;
+}
+
 .btn-text {
-  font-family: 'Poppins', sans-serif;
-  font-size: 1.3rem;
-  font-weight: bold;
-  color: white;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-  margin-top: 10px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    margin-top: 10px;
 }
 
 @keyframes fadeInUp {
