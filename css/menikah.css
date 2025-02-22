@@ -1118,44 +1118,36 @@ input[type="submit"] {
   width: 100%;
 }
 
-/* Ensure boxes come first and events stay in order */
 .columns {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns for desktop */
   gap: 20px;
+  justify-content: center;
 }
 
 .column {
-  width: 100%; /* Ensures full width on mobile */
-  max-width: 500px; /* Prevents excessive width */
+  width: 100%;
+  max-width: 500px;
 }
 
-/* Mobile View - Move First Event Below the Other Containers */
+/* Mobile View - First event moves below */
 @media (max-width: 768px) {
   .columns {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    grid-template-columns: 1fr; /* One column layout for mobile */
   }
 
-  .column.is-6:first-child {
+  .column:first-child {
     order: 2; /* Move the first event to the bottom */
   }
 
-  .column.is-6:last-child {
-    order: 1; /* Keep the other container above */
+  .column:last-child {
+    order: 1; /* Keep the other boxes above */
+  }
+
+  .event-wrap {
+    width: 90%;
+    max-width: none;
+    margin-bottom: 20px;
   }
 }
 
-@media (max-width: 768px) {
-  .container {
-      flex-direction: column;
-      align-items: center;
-  }
-  .event-wrap {
-      width: 90%;
-      max-width: none;
-      margin-bottom: 20px;
-  }
-}
