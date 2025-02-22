@@ -1118,6 +1118,7 @@ input[type="submit"] {
   width: 100%;
 }
 
+/* Ensure boxes come first and events stay in order */
 .columns {
   display: flex;
   flex-wrap: wrap;
@@ -1130,11 +1131,20 @@ input[type="submit"] {
   max-width: 500px; /* Prevents excessive width */
 }
 
-/* Responsive for Mobile */
+/* Mobile View - Move First Event Below the Other Containers */
 @media (max-width: 768px) {
   .columns {
+    display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .column.is-6:first-child {
+    order: 2; /* Move the first event to the bottom */
+  }
+
+  .column.is-6:last-child {
+    order: 1; /* Keep the other container above */
   }
 }
 
