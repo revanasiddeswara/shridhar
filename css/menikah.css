@@ -887,49 +887,49 @@ body.preloader-site {
 }
 
 .round-image {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 4px solid white;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
-    position: relative;
-    transition: transform 0.3s ease-in-out;
-}
-
-/* Style for the text inside the image */
-.click-text {
-    position: absolute;
-    bottom: 5px;
-    width: 100%;
-    background: rgba(0, 0, 0, 0.6);
-    color: white;
-    font-size: 12px;
-    font-weight: bold;
-    text-align: center;
-    padding: 3px;
-    border-bottom-left-radius: 50%;
-    border-bottom-right-radius: 50%;
-    transition: background 0.3s ease-in-out;
+  width: 220px; /* Increased size */
+  height: 220px; /* Increased size */
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid white;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+  position: relative;
+  transition: transform 0.3s ease-in-out;
 }
 
 .round-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.3s ease-in-out;
+  width: 220%; /* Slightly zoomed in */
+  height: 220%; /* Slightly zoomed in */
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Click Text Style */
+.click-text {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  font-size: 16px; /* Increased size */
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 10px;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  transition: background 0.3s ease-in-out;
 }
 
 /* Hover Effects */
 .round-image:hover {
-    transform: scale(1.1); /* Slight zoom */
+  transform: scale(1.2); /* Increased zoom */
 }
 
 .round-image:hover .click-text {
-    background: rgba(255, 0, 0, 0.8); /* Change to red on hover */
+  background: rgba(255, 0, 0, 0.8); /* Change to red on hover */
 }
 
 
