@@ -51,9 +51,9 @@ html {
 
 
 .hero .title {
-  font-family: 'Rouge Script', sans-serif;
+  font-family:'Rouge Script', cursive;
   font-weight: 700;
-  transform: rotate(-2deg);
+  transform: rotate(-3deg);
   font-size: 3rem;
   padding-bottom: 5px;
   color: whitesmoke;
