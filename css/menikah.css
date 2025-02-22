@@ -1178,6 +1178,14 @@ input[type="submit"] {
   border-radius: 8px;
   margin-top: 15px;
 }
+.box-title1 {
+  font-size: 150%;
+  font-weight: 700;
+}
+.box-title2 {
+ font-size: 150%;
+  font-weight: 700;
+}
 
 /* Ensure Bhavya Vivaha Yatra is first below 800px */
 @media (max-width: 800px) {
@@ -1192,10 +1200,14 @@ input[type="submit"] {
 
   .box-title1 {
     order: 2; /* Bhavya Vivaha Yatra comes next */
+ font-size: 150%;
+    font-weight: 700;
   }
 
   .box-title2 {
     order: 3; /* Muhurta comes last */
+ font-size: 150%;
+    font-weight: 700;
   }
 
   .iframe {
