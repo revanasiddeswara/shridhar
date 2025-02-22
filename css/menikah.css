@@ -1118,16 +1118,20 @@ input[type="submit"] {
 }
 
 /* Stack elements vertically */
-.columns {
+.containers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1500px;
+  width: 100%;
+}
+
+/* Stack elements vertically */
+.container-item {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  width: 100%;
-  max-width: 500px;
-}
-
-.column {
   width: 100%;
   max-width: 500px;
 }
@@ -1155,7 +1159,7 @@ input[type="submit"] {
 
 /* Ensure Bhavya Vivaha Yatra is first below 800px */
 @media (max-width: 800px) {
-  .columns {
+  .containers {
     display: flex;
     flex-direction: column;
   }
